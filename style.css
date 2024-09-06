@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  min-height: 100dvh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 350px;
+}
+
+.title {
+  font-size: 2.3rem;
+  color: white;
+}
+
+.description {
+  font-size: 1.4rem;
+  color: #fcfbfb60;
+
+  margin-top: 1.3rem;
+}
+
+form {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-top: 3rem;
+}
+
+form .form-field {
+  background-color: #8f8f8f3b;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  gap: 0.8rem;
+}
+
+form .form-field .box-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(73, 72, 72, 0.37);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 0.6rem;
+}
+
+form .form-field .box-icon.hidden {
+  background-color: transparent;
+}
+
+form .form-field .box-icon.hidden i {
+  color: #ffffff71;
+}
+
+form .form-field .box-icon i {
+  color: #1978fa;
+  font-weight: 600;
+}
+
+form .form-field input {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  height: 2.6rem;
+  outline: none;
+  color: white;
+}
+
+form .form-field input::placeholder {
+  color: #f6f8fa63;
+}
+
+form .link {
+  align-self: flex-end;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1978fa;
+  text-decoration: none;
+}
+
+form button {
+  background-color: #1978fa;
+  border: none;
+  border-radius: 0.8rem;
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+  height: 4.2rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1769dd;
+}
+
+.box-lines {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+.box-lines .line {
+  flex: 1;
+  height: 2px;
+  background-color: #fdfcfc1c;
+}
+
+.box-lines p {
+  color: #f8f6f660;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.buttons button {
+  background-color: transparent;
+  border: 2px solid #faf9f917;
+  padding: 1rem 0;
+  flex: 1;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #f2f2f2;
+  gap: 0.8rem;
+}
+
+.buttons button img {
+  width: 1.6rem;
+}
+
+.buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.instructions {
+  margin-top: 3rem;
+  color: #fcfbfb60;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p a {
+  color: #1978fa;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 0.8rem;
+}
